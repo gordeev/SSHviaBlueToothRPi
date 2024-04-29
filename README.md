@@ -1,5 +1,6 @@
-# SSHviaBlueToothRPi
+# SSH via BlueTooth Android + Raspberry Pi
 Get access to your RPi from Android via BT
+tested on RPi zero 2 W
 
 1) pair devices via blueman-manager or bluetoothctl
 2) add smartphone as trusted device
