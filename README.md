@@ -49,7 +49,7 @@ Before you start, make sure you have:
 
 ### Configuring the Autoconnect Script
 
-1. **Script Setup**: Place the following script in `/usr/local/bin/BT_NAP_autoconnect.sh`:
+1. **Script Setup**: Place the BT_NAP_autoconnect.sh script in `/usr/local/bin/BT_NAP_autoconnect.sh`
 
     Ensure to replace `[YOUR_DEVICE_MAC_ADDRESS]` with your device's actual MAC address in the script.
 
@@ -75,7 +75,10 @@ Before you start, make sure you have:
 
 ## Usage
 
-Once everything is set up, your Raspberry Pi will attempt to automatically connect to your smartphone's NAP service on every system startup. If the connection is lost, restarting the Raspberry Pi will trigger the connection process again.
+Verify that Bluetooth tethering is enabled on your smartphone.
+Turn on Raspberry Pi.
+Once everything is set up, your Raspberry Pi will attempt to automatically connect to your smartphone's NAP service on every system startup.
+If the connection is lost, restarting the Raspberry Pi will trigger the connection process again.
 
 ## Troubleshooting
 
