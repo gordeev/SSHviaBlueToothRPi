@@ -14,7 +14,7 @@ Before you start, make sure you have:
 
 ### Pairing and Trusting Devices
 
-1. **Manual Pairing**: On the Raspberry Pi, start by opening the terminal and running `bluetoothctl`. Use the following commands to pair and trust your smartphone:
+1. **Manual Pairing**: On the Raspberry Pi, start by opening the terminal and running `bluetoothctl` (or with blueman-manager via UI). Use the following commands to pair and trust your smartphone with bluetiithctl:
 
     ```bash
     power on
@@ -29,7 +29,7 @@ Before you start, make sure you have:
 
     Replace `[YOUR_DEVICE_MAC_ADDRESS]` with the actual MAC address of your smartphone.
 
-2. **Set a Static IP (Optional)**: It might be helpful to set a static IP address on your smartphone for the Bluetooth network interface for a more reliable connection.
+3. **Set a Static IP (Optional)**: It might be helpful to set a static IP address on your smartphone for the Bluetooth network interface for a more reliable connection.
 
    To set a static IP address for your Bluetooth network interface on the Raspberry Pi, you can modify the dhclient.conf file. Here’s how to set a static IP address, for example, 192.168.44.42
 
