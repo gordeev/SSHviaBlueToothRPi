@@ -2,6 +2,8 @@
 
 This project automates the process of establishing a Bluetooth Network Access Point (NAP) connection between a Raspberry Pi and a smartphone. It ensures that the devices are paired, trusted, and an IP address is obtained automatically.
 
+Tested on RPi Zero 2W + Kali linux + Motorola Edge 40
+
 ## Prerequisites
 
 Before you start, make sure you have:
